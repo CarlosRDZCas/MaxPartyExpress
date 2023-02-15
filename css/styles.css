@@ -1,13 +1,22 @@
-.fondo{
-background-color: rgb(255, 255, 255);
+.fondo {
+    background-color: rgb(255, 255, 255);
 }
 
 .superior {
     margin-top: 15px;
 }
 
-.navcolor {
-    background-color: blueviolet;
+nav {
+    background-color: rgb(39, 32, 48);
+}
+
+nav .navbar-nav li a {
+    color: white ;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(254, 39, 186);
 }
 
 .navborder {
@@ -24,23 +33,25 @@ background-color: rgb(255, 255, 255);
     margin-right: auto;
 }
 
-.navtext{
+
+.navtext {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
 }
 
-.img{
+.img {
     float: left;
 }
 
-.cardimg{
+.cardimg {
     height: 100%;
     width: 100%;
 }
 
-.quienessomos{
+.quienessomos {
     margin-top: 20px;
     text-align: center;
 }
+
 /**/
