@@ -6,8 +6,8 @@ background-color: rgb(255, 255, 255);
     margin-top: 15px;
 }
 
-.navcolor {
-    background-color: blueviolet;
+nav{
+    background-color: rgb(33, 35, 48);
 }
 
 .navborder {
