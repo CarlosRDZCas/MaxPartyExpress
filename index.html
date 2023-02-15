@@ -34,37 +34,31 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <a class="navbar-brand " href="#"><img class="img-nav" src="images/icono.jpeg" alt=""></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse navborder navtext" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <div class="collapse navbar-collapse navtext" id="navbarNav">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item ">
+                                    <a class="nav-link active " aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link " href="#">Information</a>
+                                    <a class="nav-link " href="#360photobooth">360° Photo Booth</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link " href="#">Photo Booth</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="#">Foam Daddy</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#">Pricing</a>
-                                </li>
+                                    <a class="nav-link " href="#foamdaddy">Foam Daddy</a>
+                                </li>                               
                                 <li class="nav-item">
                                     <a class="nav-link " href="#">Reserve</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link " href="#">Contact</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a href="https://www.facebook.com" ><i class="fa-solid fa-house navitem"></i></a>
-                                </li>
+                              <!--  <li class="nav-item">
+                                    <a href="https://www.facebook.com"><i class="fa-solid fa-house navitem"></i></a>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -72,49 +66,104 @@
             </section>
             <!--CARRUSEL-->
             <section>
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
-                    style="background-color: rgb(255, 255, 255);">
+                <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                            aria-label="Slide  3"></button>
+                    </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" style="height: 500px;">
-                            <img src="images/foamparty.png" class="d-block w-100" alt="...">
+                        <div class="carousel-item active ">
+                            <img src="images/foamparty.png" class="d-block w-100 img-carousel" alt="...">
                         </div>
-                        <div class="carousel-item" style="height: 500px;">
-                            <img src="images/photoboot.jpg" class="d-block w-100" alt="...">
-
+                        <div class="carousel-item ">
+                            <img src="images/photobooth.jpg" class="d-block w-100 img-carousel" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="images/card3.png" class="d-block w-100 img-carousel" alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                </div>
+
+                <div class="container quienessomos">
+                    <h2>What is Lorem Ipsum?</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
+                </div>
+            </section>
+            <br> <!--CARD-->
+            <section id="360photobooth" style="background-color: rgb(255, 255, 255);">
+
+                <div class="container quienessomos">
+                    <h2>360 Photo Booth</h2>
+                </div>
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-8 col-xs-12">
+                            <img src="images/photoboot.jpg" class="rounded cardimg" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-xs-12">
+                            <h2>What include 360 Photo Booth?</h2>
+                            <ul>
+                                <li>Unlimited spins and videos</li>
+                                <li>Instant sharing</li>
+                                <li>Photo Booth attendant</li>
+                                <li>Table full of fun prop</li>
+                                <li>Red carpet</li>
+                                <li>6 gold stanchions</li>
+
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
             <br>
-            <!--CARD-->
-            <section style="background-color: rgb(255, 255, 255);">
-                <div class="container text-center">
+            <br> <!--CARD-->
+            <section id="foamdaddy" style="background-color: rgb(255, 255, 255);">
+
+                <div class="container quienessomos">
+                    <h2>Foam Daddy</h2>
+                </div>
+                <div class="container ">
                     <div class="row">
                         <div class="col-sm-12 col-md-4 col-xs-12">
-                            <img src="images/carduno.jpeg" class="rounded cardimg" alt="">
+                            <h2>What include Foam Daddy?</h2>
+                            <ul>
+                                <li>Unlimited spins and videos</li>
+                                <li>Instant sharing</li>
+                                <li>Photo Booth attendant</li>
+                                <li>Table full of fun prop</li>
+                                <li>Red carpet</li>
+                                <li>6 gold stanchions</li>
+                          
                         </div>
                         <div class="col-sm-12 col-md-8 col-xs-12">
-                            <img src="images/card2.png" class="cardimg" alt="">
+                            <img src="images/card4.png" class="rounded cardimg" alt="">
+                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
             <br>
             <!--OTRO CONTENIDO-->
-            <section>
+            <section id="Information">
                 <div class="container quienessomos">
                     <h2>What is Lorem Ipsum?</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum.</p>
                 </div>
             </section>
             <section class="container">
