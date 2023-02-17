@@ -23,9 +23,7 @@ nav .navbar-nav li a {
 .navbar-nav .nav-item:hover .nav-link {
     color: rgb(254, 39, 186);
 }
-.active{
-    color: rgb(254, 39, 186);   
-}
+
 
 .navborder {
     margin-left: 14%;
