@@ -1,0 +1,50 @@
+.fondo{
+background-color: rgb(255, 255, 255);
+}
+
+.superior {
+    margin-top: 15px;
+}
+
+.navcolor {
+    background-color: blueviolet;
+}
+
+.navborder {
+    margin-left: 14%;
+}
+
+.img-nav {
+    width: 35%;
+}
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navtext{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+.img{
+    float: left;
+}
+
+.cardimg{
+    height: 100%;
+    width: 100%;
+}
+
+.quienessomos{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.area{
+    background-color: aqua;
+}
+/**/

@@ -15,8 +15,9 @@ nav {
 }
 
 nav .navbar-nav li a {
-    color: white ;
+    color: white;
 }
+
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item .nav-link:active,
 .navbar-nav .nav-item .nav-link:focus,
@@ -29,11 +30,11 @@ nav .navbar-nav li a {
     margin-left: 14%;
 }
 
-.img-carousel{
-    object-fit: fill;  
+.img-carousel {
+    object-fit: fill;
     max-height: 900px;
-   width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .img-nav {
@@ -46,11 +47,11 @@ nav .navbar-nav li a {
     margin-right: auto;
 }
 
-.carousel-inner > .item >img{
-    min-height : 300px;
-    max-height : 300px;
-    width : 100%;
-  }
+.carousel-inner>.item>img {
+    min-height: 300px;
+    max-height: 300px;
+    width: 100%;
+}
 
 .navtext {
     font-size: 20px;
@@ -70,6 +71,31 @@ nav .navbar-nav li a {
 .quienessomos {
     margin-top: 20px;
     text-align: center;
+}
+
+.area {
+    background-color: aqua;
+}
+
+.tamano {
+    width: 80%;
+}
+
+.package {
+    background-image: url("../images/fondo1.jpg");
+    opacity: 1;
+}
+
+.bordes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sticker{
+	background:url(../images/sticker.jpg) no-repeat;
+	width:10%;
+	height:10%;
+	position:absolute;
 }
 
 /**/
