@@ -1,5 +1,6 @@
 .fondo {
-    background-color: white;
+    background-color: rgb(39, 32, 48);
+
 }
 
 .superior {
@@ -71,7 +72,14 @@ nav .navbar-nav li a {
 .quienessomos {
     margin-top: 20px;
     text-align: center;
+    color: #ffffff;
+
 }
+
+footer {
+    color: #ffffff;
+}
+
 
 .area {
     background-color: aqua;
@@ -127,6 +135,22 @@ nav .navbar-nav li a {
     background-size: cover;
 }
 
+
+.parallaxFoam {
+    background-image: url(../images/card4.png);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body,
 html {
     height: 110%;
@@ -135,9 +159,10 @@ html {
 }
 
 .containerPrincipal {
-    background-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(39, 32, 48, 0.3);
     backdrop-filter: blur(10px);
-    color: wheat;
+    /* color: white; */
+    color: rgb(172, 139, 31);
     font-size: 40px;
     margin-top: 100px;
     margin-left: 15px;
@@ -154,13 +179,53 @@ html {
 }
 
 .titlePrincipal {
-    background-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(39, 32, 48, 0.3);
     backdrop-filter: blur(10px);
     color: rgb(254, 39, 186);
     font-size: 40px;
     margin-top: -220px;
     margin-left: 15px;
     margin-right: 15px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    border-radius: 25px
+}
+
+
+.containerPrincipalFoam {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    color: rgb;
+    /* color: rgb(172, 139, 31); */
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 35px;
+    margin-right: 45px;
+    font-weight: bolder;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.titlePrincipalFoam {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    color: rgb(254, 39, 186);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 35px;
+    margin-right: 3 5px;
     font-weight: bolder;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -195,6 +260,21 @@ li {
     transition: all 0.5s;
     cursor: pointer;
     margin-top: 80px;
+}
+
+.buttongoFoam {
+    display: inline-block;
+    background-color: rgb(254, 39, 186);
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 0px;
 }
 
 
