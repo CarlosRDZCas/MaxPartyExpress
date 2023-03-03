@@ -26,7 +26,6 @@ nav .navbar-nav li a {
     color: rgb(254, 39, 186);
 }
 
-
 .navborder {
     margin-left: 14%;
 }
@@ -80,7 +79,6 @@ footer {
     color: #ffffff;
 }
 
-
 .area {
     background-color: aqua;
 }
@@ -106,7 +104,6 @@ footer {
     position: absolute;
 }
 
-
 .bg {
     width: 100vw;
     height: 1500px;
@@ -116,9 +113,7 @@ footer {
     background: url("../images/photobg.jpg") no-repeat;
     height: pa;
     width: fit-content;
-
 }
-
 
 .parallax {
     background-image: url(../images/photobg.jpg);
@@ -135,13 +130,12 @@ footer {
     background-size: cover;
 }
 
-
 .parallaxFoam {
     background-image: url(../images/card4.png);
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     background-attachment: fixed;
@@ -183,7 +177,7 @@ html {
     backdrop-filter: blur(10px);
     color: rgb(254, 39, 186);
     font-size: 40px;
-    margin-top: -220px;
+    margin-top: -0px;
     margin-left: 15px;
     margin-right: 15px;
     font-weight: bolder;
@@ -197,17 +191,14 @@ html {
     border-radius: 25px
 }
 
-
 .containerPrincipalFoam {
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     color: rgb;
     /* color: rgb(172, 139, 31); */
-    font-size: 40px;
-    margin-top: 0px;
+    margin-top: 60px;
     margin-left: 35px;
     margin-right: 45px;
-    font-weight: bolder;
     width: fit-content;
     height: fit-content;
     padding-top: 30px;
@@ -218,15 +209,53 @@ html {
     border-radius: 25px;
 }
 
+@media screen and (min-width: 601px) {
+    .titleFont {
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .titleFont {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .subtitleFont {
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .subtitleFont {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .bodyFont {
+        font-size: 35px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bodyFont {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
 .titlePrincipalFoam {
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     color: rgb(254, 39, 186);
-    font-size: 40px;
     margin-top: 0px;
-    margin-left: 35px;
-    margin-right: 3 5px;
-    font-weight: bolder;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
@@ -247,41 +276,146 @@ li {
     justify-content: center;
 }
 
-.buttongo {
-    display: inline-block;
-    background-color: rgb(254, 39, 186);
-    border-radius: 15px;
-    border: none;
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
-    padding: 10px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-top: 80px;
+@media screen and (min-width: 601px) {
+    .buttongo {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 80px;
+    }
 }
 
-.buttongoFoam {
-    display: inline-block;
-    background-color: rgb(254, 39, 186);
-    border-radius: 15px;
-    border: none;
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
-    padding: 10px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-top: 0px;
+@media screen and (max-width: 600px) {
+    .buttongo {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 80px;
+    }
 }
 
+@media screen and (min-width: 601px) {
+    .buttongoFoam {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .buttongoFoam {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 0px;
+    }
+}
 
 .buttongo:hover {
     background-color: rgb(255, 77, 196);
 }
 
+.footerdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
 
+.socialmedia {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    margin-right: 25px;
+    flex-direction: row;
+}
+
+.rounddiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: rgb(254, 39, 186);
+}
+
+.iconsocial {
+    color: rgb(39, 32, 48);
+    font-size: 23px;
+}
+
+.apartados {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+
+
+@media screen and (min-width: 601px) {
+    .direccion {
+        text-decoration: none;
+        color: white;
+        margin-right: 25px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .direccion {
+        text-decoration: none;
+        color: white;
+        margin-right: 25px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+
+.direccion:hover {
+    color: rgb(254, 39, 186);
+}
 
 /**/
