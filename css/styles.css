@@ -1,6 +1,5 @@
 .fondo {
     background-color: rgb(39, 32, 48);
-
 }
 
 .superior {
@@ -72,7 +71,6 @@ nav .navbar-nav li a {
     margin-top: 20px;
     text-align: center;
     color: #ffffff;
-
 }
 
 footer {
@@ -85,13 +83,12 @@ footer {
 
 .tamano {
     width: 80%;
-
 }
 
 .containerToxicity {
     width: 100%;
     margin-right: auto;
-    margin-bottom: -10px;    
+    margin-bottom: -10px;
     margin-top: -10px;
     margin-left: auto;
     justify-content: center;
@@ -141,24 +138,9 @@ footer {
     background-size: cover;
 }
 
-.photobootParallax{
-    background-image: url(../images/photoboot.jfif);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    background-attachment: fixed;
-    background-position: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .parallaxFoam {
     background-image: url(../images/foamdaddyglow.JPG);
-
     height: 100%;
     width: 100%;
     display: flex;
@@ -183,9 +165,7 @@ html {
 .containerPrincipal {
     background-color: rgba(39, 32, 48, 0.3);
     backdrop-filter: blur(10px);
-    /* color: white; */
     color: rgb(255, 255, 255);
-    /* -webkit-text-stroke: 1.3px rgb(254, 39, 186); */
     text-shadow: -2px 0 rgb(254, 39, 186), 0 2px rgb(254, 39, 186), 2px 0 rgb(254, 39, 186), 0 -2px rgb(254, 39, 186);
     font-size: 40px;
     margin-top: 100px;
@@ -224,8 +204,6 @@ html {
 .containerPrincipalFoam {
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
-    color: rgb;
-    /* color: rgb(172, 139, 31); */
     margin-top: 60px;
     margin-left: 35px;
     margin-right: 45px;
@@ -237,48 +215,6 @@ html {
     padding-right: 40px;
     text-align: center;
     border-radius: 25px;
-}
-
-@media screen and (min-width: 601px) {
-    .titleFont {
-        font-size: 45px;
-        font-weight: bold;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .titleFont {
-        font-size: 30px;
-        font-weight: bold;
-    }
-}
-
-@media screen and (min-width: 601px) {
-    .subtitleFont {
-        font-size: 40px;
-        font-weight: bold;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .subtitleFont {
-        font-size: 25px;
-        font-weight: bold;
-    }
-}
-
-@media screen and (min-width: 601px) {
-    .bodyFont {
-        font-size: 35px;
-        font-weight: 400;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .bodyFont {
-        font-size: 20px;
-        font-weight: 400;
-    }
 }
 
 .titlePrincipalFoam {
@@ -304,74 +240,6 @@ ul {
 li {
     padding: 10px;
     justify-content: center;
-}
-
-@media screen and (min-width: 601px) {
-    .buttongo {
-        display: inline-block;
-        background-color: rgb(254, 39, 186);
-        border-radius: 15px;
-        border: none;
-        color: #ffffff;
-        text-align: center;
-        font-size: 25px;
-        padding: 10px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin-top: 80px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .buttongo {
-        display: inline-block;
-        background-color: rgb(254, 39, 186);
-        border-radius: 15px;
-        border: none;
-        color: #ffffff;
-        text-align: center;
-        font-size: 18px;
-        padding: 10px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin-top: 80px;
-    }
-}
-
-@media screen and (min-width: 601px) {
-    .buttongoFoam {
-        display: inline-block;
-        background-color: rgb(254, 39, 186);
-        border-radius: 15px;
-        border: none;
-        color: #ffffff;
-        text-align: center;
-        font-size: 25px;
-        padding: 10px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin-top: 0px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .buttongoFoam {
-        display: inline-block;
-        background-color: rgb(254, 39, 186);
-        border-radius: 15px;
-        border: none;
-        color: #ffffff;
-        text-align: center;
-        font-size: 18px;
-        padding: 10px;
-        width: 200px;
-        transition: all 0.5s;
-        cursor: pointer;
-        margin-top: 0px;
-    }
 }
 
 .buttongo:hover {
@@ -418,32 +286,6 @@ li {
     margin-bottom: 15px;
 }
 
-
-
-@media screen and (min-width: 601px) {
-    .direccion {
-        text-decoration: none;
-        color: white;
-        margin-right: 25px;
-        margin-bottom: 30px;
-        font-size: 20px;
-        font-weight: bold;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .direccion {
-        text-decoration: none;
-        color: white;
-        margin-right: 25px;
-        margin-bottom: 30px;
-        margin-left: 10px;
-        font-size: 15px;
-        font-weight: bold;
-    }
-}
-
-
 .direccion:hover {
     color: rgb(254, 39, 186);
 }
@@ -453,13 +295,213 @@ li {
     width: 120px;
 }
 
-.centerToxicicty{
+.centerToxicicty {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
+.descriptionContainer {
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 15px;
+    flex-direction: column;
+    border-radius: 25px
+}
 
+@media screen and (min-width: 601px) {
+    .photobootContainer {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+    }
 
-/**/
+    .direccion {
+        text-decoration: none;
+        color: white;
+        margin-right: 25px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .buttongoFoam {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 0px;
+    }
+
+    .buttongo {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 80px;
+    }
+
+    .rowPricing {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 25px;
+
+        margin-right: 25px;
+    }
+
+    .bodyFont {
+        font-size: 35px;
+        font-weight: 400;
+    }
+
+    .subtitleFont {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .titleFont {
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .video {
+        height: fit-content;
+        width: 600px;
+    }
+
+    .rowDescription {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .rowPricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 25px;        
+        margin-right: 25px;
+    }
+
+    .price{
+        padding-bottom: 30px;
+    }
+
+    .photobootContainer {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rowDescription {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .photobootimg {
+        width: 100%;
+        height: 400px;
+    }
+
+    .direccion {
+        text-decoration: none;
+        color: white;
+        margin-right: 25px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .buttongoFoam {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 0px;
+    }
+
+    .buttongo {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 80px;
+    }
+
+    .bodyFont {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .subtitleFont {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .titleFont {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+.pbDescriptionContainer {
+    background-color: rgb(64, 52, 82);
+    color: white;
+    padding: 35px;
+}
+
+.listEvents {
+    list-style-type: none;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
