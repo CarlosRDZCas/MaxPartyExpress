@@ -13,6 +13,7 @@
     <script type="text/javascript" src="../js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--fav ico-->
     <link rel="apple-touch-icon" sizes="144x144" href="../images/apple-touch-icon">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
@@ -21,16 +22,15 @@
     <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
 </head>
 
 <body class="fondo">
     <header>
-        <div class="">
+        <div>
             <!--NAV BAR-->
             <section>
                 <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
+                    <div id="navbarphoto" class="container-fluid animate__animated animate__bounceInLeft">
                         <a class="navbar-brand " href="#"><img class="img-nav" src="../images/icono.jpeg" alt=""></a>
                         <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -64,7 +64,6 @@
             </section>
         </div>
     </header>
-
     <div class="photobootContainer">
         <div class="">
             <img class="photobootimg" src="../images/photoboot.jfif" alt="">
@@ -76,68 +75,97 @@
                     Is a camera booth that offers a whole new experience of taking pictures to users. The guests have to
                     stand on the elevated platform, and a slow-motion arm will capture the video from each angle.
                 </h5>
+                <h5>Get the right package for your party, bring to your guests the best experience and the posibility to
+                    save the moment</h5>
             </div>
+            <br>
+            <br>
             <div>
-                <h2 class="subtitle">Packages</h2>
-                <h5>Get the right package for your party, bring to your guests the best experience and the posibiity to
-                    save
-                    the moment </h5>
+                <!-- <h2 class="subtitle">Packages</h2>
+                <h5>Get the right package for your party, bring to your guests the best experience and the posibility to
+                    save the moment</h5>
                 <br>
-                <br>
+                <br> -->
                 <div class="rowDescription">
-                    <Ul class="listEvents">
-                        <li>XVs</li>
-                        <li>Birthdays</li>
-                        <li>Anniversaries</li>
-                        <li>Weddings</li>
-                        <li>Graduations</li>
-                        <li>Corporate Events</li>
-                        <li>And more</li>
-                    </Ul>
-                    <video class="video" autoplay muted>
+                    <div>
+                        <h2>
+                            <b> Perfect for</b>
+                        </h2>
+                        <Ul class="listEvents">
+                            <li>XVs</li>
+                            <li>Birthdays</li>
+                            <li>Anniversaries</li>
+                            <li>Weddings</li>
+                            <li>Graduations</li>
+                            <li>Corporate Events</li>
+                            <li>And more</li>
+                        </Ul>
+                    </div>
+                    <div>
+                        <h2>
+                            <b>
+                                What include 360 Photo Booth?
+                            </b>
+                        </h2>
+                        <ul class="listEvents">
+                            <li>Unlimited spins and videos</li>
+                            <li>Instant sharing</li>
+                            <li>Photo Booth attendant</li>
+                            <li>Table full of fun prop</li>
+                            <li>Red carpet</li>
+                            <li>6 Gold stanchions</li>
+                        </ul>
+                    </div>
+                    <!-- <video class="video" autoplay muted>
                         <source src="../images/foamglowvideo.mp4" type="video/mp4">
-                    </video>
+                    </video> -->
                 </div>
             </div>
+            <br>
             <div class="subtitle">
                 <h1>Costs</h1>
             </div>
-
+            <br>
             <div class="rowPricing">
                 <div class="price">
                     <h2>2 Hours</h2>
+                    <br>
                     <h4>$300 dlls</h4>
                 </div>
                 <div class="price">
                     <h2>3 Hours</h2>
+                    <br>
                     <h4>$400 dlls</h4>
                 </div>
                 <div class="price">
                     <h2>Each additional hour</h2>
+                    <br>
                     <h4>$60 dlls</h4>
                 </div>
             </div>
-
+            <div class="reserveContainer">
+                <button type="button" class="buttongoPhoto display-6">Click to Reserve</button>
+            </div>
         </div>
-
     </div>
-
     <footer>
         <div class="footerdiv">
             <div class="socialmedia">
-
-                <div class="rounddiv"> <a href="https://www.facebook.com"><i class="iconsocial fa fa-facebook"></i>
-                    </a></div>
-
-
-                <div class="rounddiv"> <a href="https://www.instagram.com"><i class="iconsocial fa fa-instagram"></i>
-                    </a></div>
-                </a>
-
-                <div class="rounddiv"> <a href="https://www.outlook.com"><i class="iconsocial fa fa-envelope"></i>
+                <div class="rounddiv">
+                    <a href="https://www.facebook.com">
+                        <i class="iconsocial fa fa-facebook"></i>
                     </a>
                 </div>
-                </a>
+                <div class="rounddiv">
+                    <a href="https://www.instagram.com">
+                        <i class="iconsocial fa fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="rounddiv">
+                    <a href="https://www.outlook.com">
+                        <i class="iconsocial fa fa-envelope"></i>
+                    </a>
+                </div>
             </div>
             <div class="apartados">
                 <a class="direccion display-6" href="#">Home</a>

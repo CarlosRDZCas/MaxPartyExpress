@@ -362,6 +362,21 @@ li {
         margin-top: 80px;
     }
 
+    .buttongoPhoto {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 25px;
+        padding: 15px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 80px;
+    }
+
     .rowPricing {
         display: flex;
         flex-direction: row;
@@ -393,8 +408,9 @@ li {
 
     .rowDescription {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-direction: row;
+
     }
 }
 
@@ -471,6 +487,20 @@ li {
         margin-top: 80px;
     }
 
+    .buttongoPhoto {
+        display: inline-block;
+        background-color: rgb(254, 39, 186);
+        border-radius: 15px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 18px;
+        padding: 15px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 80px;
+    }
     .bodyFont {
         font-size: 20px;
         font-weight: 400;
@@ -497,11 +527,16 @@ li {
     list-style-type: none;
     padding-right: 50px;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .subtitle {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.reserveContainer{
+    display: flex;
     justify-content: center;
 }
