@@ -162,6 +162,13 @@ html {
     margin: 0;
 }
 
+.bodyReserve{
+    height: 130%;
+    width: 100%;
+    background-color: rgb(39, 32, 48);
+    margin: 0; 
+}
+
 .containerPrincipal {
     background-color: rgba(39, 32, 48, 0.3);
     backdrop-filter: blur(10px);
@@ -539,4 +546,11 @@ li {
 .reserveContainer{
     display: flex;
     justify-content: center;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;    
+    height: 120%;
+    margin-bottom: 35px;
 }
